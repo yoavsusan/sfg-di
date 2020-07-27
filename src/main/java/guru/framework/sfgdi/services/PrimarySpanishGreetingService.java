@@ -1,15 +1,15 @@
 package guru.framework.sfgdi.services;
 
-public class PrimaryGreetingService implements  IGreetingService {
+public class PrimarySpanishGreetingService implements IGreetingService {
 
     private GreetingRepository greetingRepository;
 
-    public PrimaryGreetingService(GreetingRepository greetingRepository) {
+    public PrimarySpanishGreetingService(GreetingRepository greetingRepository) {
         this.greetingRepository = greetingRepository;
     }
 
     @Override
     public String getGreeting() {
-        return "Hello World - EN Primary";
+        return "Hello world - ES";
     }
 }
