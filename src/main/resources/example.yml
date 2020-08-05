@@ -1,0 +1,22 @@
+#this is a comment
+
+name: yoav
+names:
+  - yoav
+  - yoquarth
+
+usd_sign: "$"
+
+book:
+  author: yoav
+  publisher: yoav_publisher
+
+truth: yes
+
+another_truth: true
+
+more_true: True
+
+false: no #No, false, False
+
+string_val: "hi hello"
